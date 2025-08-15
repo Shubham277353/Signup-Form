@@ -29,35 +29,43 @@
       <h2 class="second-para-heading">You <em>Know</em> you want to.</h2>
     </div>
     <div class="main-form">
-      <h2>Let's do this!'</h2>
-      <form>
-        <div class="form-field">
-          <div class="form-row">
-            <label for="fname">FIRST NAME</label>
-            <input type="text" id="fname" placeholder="Thor" required />
+      <h2 class="form-heading">Let's do this!'</h2>
+      <form class="form-container">
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="first-name">FIRST NAME</label>
+            <input id="first-name" type="text" placeholder="John">
           </div>
-          <div class="form-row">
-            <label for="lname">LAST NAME</label>
-            <input type="text" id="lname" placeholder="Odinson" required />
+          <div class="form-field">
+            <label for="last-name">LAST NAME</label>
+            <input id="last-name" type="text" placeholder="Doe">
           </div>
-          <div class="form-row">
-            <label for="mail">EMAIL</label>
-            <input type="email" id="mail" placeholder="thorodinson@abc.com" required />
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="email">EMAIL</label>
+            <input id="email" type="email" placeholder="johndoe@abc.com">
           </div>
-          <div class="form-row">
-            <label for="phone-number">PHONE NUMBER</label>
-            <input type="phone-number" id="number" placeholder="8375027365" required />
+          <div class="form-field">
+            <label for="phone">PHONE NUMBER</label>
+            <input id="phone" type="tel" placeholder="321123132">
           </div>
-          <div class="form-row">
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
             <label for="password">PASSWORD</label>
-            <input type="password" id="password" />
+            <input id="password" type="password">
           </div>
-          <div class="form-row">
+          <div class="form-field">
             <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="password" id="confirm-password" />
+            <input id="confirm-password" type="password">
           </div>
         </div>
       </form>
+
     </div>
     <div class="create-account-page">
       <button type="submit" class="submit-button">Create Account</button>
