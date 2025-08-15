@@ -18,7 +18,7 @@ body {
 }
 
 .image-container {
-  background-image: url("../images/BG.jpg");
+  background-image: url("images/BG.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -59,7 +59,6 @@ img {
 .main-container {
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
   flex: 1;
   background: linear-gradient(to bottom right, #faf8f5, #f2eeea);
 }

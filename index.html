@@ -1,78 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup-Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/norse" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Signup-Form</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.cdnfonts.com/css/norse" rel="stylesheet" />
-</head>
+  <body>
+    <div class="side-container">
+      <div class="image-container">
+        <div class="heading-logo">
+          <img
+            src="images/odin-lined.png"
+            alt="Image of a norse warrior or viking"
+          />
+          <h1>ODIN</h1>
+        </div>
+      </div>
+      <p class="credit-paragraph">
+        Photo by <span class="underlined">Halie West</span> on
+        <span class="underlined">Unsplash</span>
+      </p>
+    </div>
 
-<body>
-  <div class="side-container">
-    <div class="image-container">
-      <div class="heading-logo">
-        <img src="images/odin-lined.png" alt="Image of a norse warrior or viking" />
-        <h1>ODIN</h1>
+    <div class="main-container">
+      <div class="para-heading">
+        <h2>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </h2>
+        <h2>Sign up now to get started.</h2>
+        <h2 class="second-para-heading">You <em>Know</em> you want to.</h2>
+      </div>
+      <div class="main-form">
+        <h2 class="form-heading">Let's do this!'</h2>
+        <form class="form-container">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="first-name">FIRST NAME</label>
+              <input id="first-name" type="text" placeholder="John" />
+            </div>
+            <div class="form-field">
+              <label for="last-name">LAST NAME</label>
+              <input id="last-name" type="text" placeholder="Doe" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">EMAIL</label>
+              <input id="email" type="email" placeholder="johndoe@abc.com" />
+            </div>
+            <div class="form-field">
+              <label for="phone">PHONE NUMBER</label>
+              <input id="phone" type="tel" placeholder="321123132" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="password">PASSWORD</label>
+              <input id="password" type="password" />
+            </div>
+            <div class="form-field">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input id="confirm-password" type="password" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="create-account-page">
+        <button type="submit" class="submit-button">Create Account</button>
+        <p>Already have an accound? <span id="login">Log in</span></p>
       </div>
     </div>
-    <p class="credit-paragraph">Photo by <span class="underlined">Halie West</span> on <span class="underlined">Unsplash</span></p>
-  </div>
-
-  <div class="main-container">
-    <div class="para-heading">
-      <h2>
-        This is not a real online service! You know you need something like
-        this in your life to help you realize your deepest dreams.
-      </h2>
-      <h2>Sign up now to get started.</h2>
-      <h2 class="second-para-heading">You <em>Know</em> you want to.</h2>
-    </div>
-    <div class="main-form">
-      <h2 class="form-heading">Let's do this!'</h2>
-      <form class="form-container">
-
-        <div class="form-row">
-          <div class="form-field">
-            <label for="first-name">FIRST NAME</label>
-            <input id="first-name" type="text" placeholder="John">
-          </div>
-          <div class="form-field">
-            <label for="last-name">LAST NAME</label>
-            <input id="last-name" type="text" placeholder="Doe">
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-field">
-            <label for="email">EMAIL</label>
-            <input id="email" type="email" placeholder="johndoe@abc.com">
-          </div>
-          <div class="form-field">
-            <label for="phone">PHONE NUMBER</label>
-            <input id="phone" type="tel" placeholder="321123132">
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-field">
-            <label for="password">PASSWORD</label>
-            <input id="password" type="password">
-          </div>
-          <div class="form-field">
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input id="confirm-password" type="password">
-          </div>
-        </div>
-      </form>
-
-    </div>
-    <div class="create-account-page">
-      <button type="submit" class="submit-button">Create Account</button>
-      <p>Already have an accound? <span id="login">Log in</span></p>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
